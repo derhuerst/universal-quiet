@@ -1,0 +1,28 @@
+{
+	"name": "universal-quiet",
+	"description": "The Quiet library, in native, WASM and asm.js.",
+	"version": "1.0.0",
+	"main": "index.js",
+	"files": [
+		"index.js",
+		"example.js"
+	],
+	"keywords": [
+		"quiet",
+		"sound",
+		"data",
+		"wasm",
+		"asmjs",
+		"cross platform"
+	],
+	"author": "Jannis R <mail@jannisr.de>",
+	"homepage": "https://github.com/derhuerst/universal-quiet",
+	"repository": "derhuerst/universal-quiet",
+	"bugs": "https://github.com/derhuerst/universal-quiet/issues",
+	"license": "ISC",
+	"engines": {
+		"node": ">=10"
+	},
+	"dependencies": {
+	}
+}
