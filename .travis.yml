@@ -1,7 +1,16 @@
-language: node_js
-node_js:
-  - '10'
-build:
+dist: bionic
+language: minimal
+addons:
+  apt:
+    sources:
+      - ubuntu-toolchain-r-test
+    packages:
+      - gcc-5
+      - g++-5
+      - clang-6.0
+      - libasound-dev
+      - alsa-utils
+script:
   - ./build.sh
 cache: npm
 notifications:
