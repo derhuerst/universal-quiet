@@ -10,6 +10,12 @@ addons:
       - clang-6.0
       - libasound-dev
       - alsa-utils
+install:
+  - 'curl -fsSL -O https://raw.githubusercontent.com/derhuerst/install-emsdk/master/install-emsdk.sh'
+  - 'chmod +x install-emsdk.sh'
+  - './install-emsdk.sh emsdk'
+  - 'source emsdk/emsdk_env.sh'
+  - 'emcc --version'
 script:
   - ./build.sh
 cache: npm

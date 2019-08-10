@@ -11,4 +11,4 @@ cd quiet
 
 # todo
 ./bootstrap
-# ./bootstrap_js
+./bootstrap_js
